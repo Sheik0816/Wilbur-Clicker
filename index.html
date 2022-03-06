@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+	<title>Wilbur Clicker</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="sectionLeft">
+		<center>
+		<div class="scoreContainer">
+		<p>Notes: <span id="score">0</span></p>
+		<span id="nps">0 </span> Notes per Second
+		<br>
+		<span id="scorePerSecond">1</span> Notes Per Click
+	</div>
+		<br>
+		<div class="clickerContainer">
+			<image src="images/R.jpg" height="256px" width="256px" onclick="game.addToScore(game.clickValue)">
+		</div>
+		<button onclick="saveGame();">Save Game</button>
+		<button onclick="resetGame();">Reset Game</button>
+		</center>
+	</div>
+	<div class="sectionRight" id="shopContainer">
+			
+	</div>
+</body>
+</HTML>
